@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @store.name %>
+</p>
+
+<p>
+  <strong>Address:</strong>
+  <%= @store.address %>
+</p>
+
+<p>
+  <strong>Specialty:</strong>
+  <%= @store.specialty %>
+</p>
+
+<p>
+  <strong>Owner:</strong>
+  <%= @store.owner %>
+</p>
+
+<p>
+  <strong>State:</strong>
+  <%= @store.state %>
+</p>
+
+<%= link_to 'Edit', edit_store_path(@store) %> |
+<%= link_to 'Back', stores_path %>
