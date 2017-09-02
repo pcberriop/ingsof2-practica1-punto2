@@ -3,5 +3,4 @@ class Song < ApplicationRecord
     validates :author, presence: true, length: { maximum: 20}
     validates :gender, length: { maximum: 20}, presence: true
     validates :album, presence: true, length: { maximum: 20}
-    validates :date
 end

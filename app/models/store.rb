@@ -3,6 +3,4 @@ class Store < ApplicationRecord
     validates :address, presence: true, length: { maximum: 20}
     validates :specialty, presence: true, length: { maximum: 10}
     validates :owner, presence: true, length: { maximum: 10}
-    t.boolean :state
-
 end
